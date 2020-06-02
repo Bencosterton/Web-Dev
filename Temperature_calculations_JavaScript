@@ -1,0 +1,15 @@
+// The bellow is useful as it contains var and strings, and string interpolation.
+
+// bellow variable is for Kelvin measurment 
+const kelvin = 0;
+
+// Celcius is 273 below kelvin
+const celsius = kelvin - 273;
+
+// fahrenheit is celcuis plud bellow equation
+let fahrenheit = celsius * (9 / 5) + 32;
+
+fahrenheit = Math.floor(fahrenheit); 
+
+console.log(`The temperature is ${fahrenheit} degrees Fahrenheit`);
+
