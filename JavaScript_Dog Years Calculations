@@ -1,0 +1,18 @@
+const myAge = 28
+let earlyYears = 2
+
+earlyYears *= 10.5;
+let laterYears = myAge - 2;
+
+laterYears *= 4;
+
+let myAgeInDogYears = earlyYears + laterYears
+
+/*Let’s use a string method next.
+Write your name as a string, call its built-in method .toLowerCase(), and store the result in a variable called myName.*/
+
+'Benjamin' .toLowerCase();
+const myName = 'Benjamin' .toLowerCase();
+
+console.log(`My name is ${myName}. I am ${myAgeInDogYears} years old in dog years.`);
+
