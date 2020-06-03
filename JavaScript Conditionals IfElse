@@ -1,0 +1,71 @@
+//Example of conditional statements in JS
+
+var sale = true;
+var sale = false;
+
+if (sale) {
+  console.log('Time to buy!');
+}
+
+/* In the above, variable true on line 3 was changed to false on line 4, this code would render no answer. Deleting line 4 would render 
+the answer "Time to buy!" */
+
+
+
+
+// If Else statements
+
+let sale = true;
+
+sale = false;
+
+if(sale) {
+  console.log('Time to buy!');
+} else {
+  console.log('Time to wait for a sale.');
+}
+
+
+/* Useful to know;
+Less than: <
+Greater than: >
+Less than or equal to: <=
+Greater than or equal to: >=
+Is equal to: ===
+Is not equal to: !==
+
+the and operator (&&)
+the or operator (||)
+the not operator, otherwise known as the bang operator (!)
+*/
+
+
+
+
+// If Else variable statement
+
+let hungerLevel = 7;
+
+if (hungerLevel > 7) {
+  console.log('Time to eat!');
+} else {
+  console.log('We can eat later!');
+};
+
+// This would print 'We can eat later!'
+
+
+
+/*
+*/
+
+let mood = 'sleepy';
+let tirednessLevel = 6;
+
+if (mood === 'sleepy' && tirednessLevel > 8) {
+  console.log('time to sleep');
+} else {
+  console.log('not bed time yet');
+}
+
+
