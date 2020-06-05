@@ -1,0 +1,28 @@
+/* The code bellow test multipe variables to give you the correct output.
+line 10 has a boulin for whether the racer registered early (true / false boulion)
+line 11 has an age input 
+
+depending on these variables, elseif statements will find the correct message to output
+*/
+
+
+let raceNumber = Math.floor(Math.random() * 1000);
+const registeredEarly = false;
+let runnerAge = 28;
+
+if (registeredEarly && runnerAge > 18){
+  raceNumber += 1000;
+}
+
+if (runnerAge > 18 && registeredEarly){
+  console.log(`Race will begin at 09:30, your race number is ${raceNumber}.`);
+} 
+else if (runnerAge > 18 && !registeredEarly){
+  console.log(`Race will begin at 11:00, your race number is ${raceNumber}`);
+}
+else if (runnerAge < 18) {
+  console.log(`Race will begin at 12:30, your race number is ${raceNumber}`)
+}
+else 
+console.log('Please go to regitration desk')
+
