@@ -11,3 +11,78 @@ console.log(canIVote(19))
 const agreeOrDisagree = (first, second) => (first === second) ? 'You agree!' : 'You disagree!'
 
 console.log(agreeOrDisagree("yep", "yep"))
+
+
+
+// Life age 
+
+const lifePhase = age => {
+    if (age < 0 || age > 140) {
+        return 'This is not a valid age'
+    } else if (age < 4) {
+        return 'baby'
+    } else if (age < 13) {
+        return 'child'
+    } else if (age < 20) {
+        return 'teen'
+    } else if (age < 65) {
+        return 'adult'
+    } else {
+        return 'senior citizen'
+    }
+}
+console.log(lifePhase(28))
+
+/* this would return 'adult */
+
+
+
+
+// Planet weight
+
+
+const calculateWeight = (earthWeight, planet) => {
+    switch (planet) {
+        case 'Mercury':
+            return earthWeight * .378;
+        case 'Venus':
+            return earthWeight * .907;
+        case 'Mars':
+            return earthWeight * .377;
+        case 'Jupiter':
+            return earthWeight * 2.36;
+        case 'Saturn':
+            return earthWeight * .916;
+        default:
+            return 'Invalid Planet Entry. Try: Mercury, Venus, Mars, Jupiter, or Saturn.'
+    }
+}
+
+console.log(calculateWeight(100, 'Jupiter'))
+
+
+
+
+// Tip calculator
+
+const tipCalculator = (quality, total) => {
+    switch (quality) {
+        case 'bad':
+            return total * .05;
+        case 'ok':
+            return total * .15;
+        case 'good':
+            return total * .20;
+        case 'excellent':
+            return total * .30;
+        default:
+            return total * .18;
+
+    }
+}
+
+console.log(tipCalculator('good', 100))
+
+
+//
+
