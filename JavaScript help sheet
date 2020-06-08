@@ -1,0 +1,13 @@
+// Can I vote Else If (true false booleun)
+
+const canIVote = (age) => age >= 18 ? true : false
+
+console.log(canIVote(19))
+
+
+
+// Agree / Disagree function
+
+const agreeOrDisagree = (first, second) => (first === second) ? 'You agree!' : 'You disagree!'
+
+console.log(agreeOrDisagree("yep", "yep"))
