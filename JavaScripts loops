@@ -33,3 +33,5 @@ while (currentCard !== 'spade') {
 // The above code runs a continuous loop of randum variables from 'cards', untill it prints 'spade' to the concole.
 
 
+
+
