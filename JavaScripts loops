@@ -34,4 +34,25 @@ while (currentCard !== 'spade') {
 
 
 
+// The loop bellow extracts vowels from a string.
+
+let input = "I am a whale";
+const vowels = ['a', 'e', 'i', 'o', 'u'];
+const resultsArray = [];
+
+for (let i = 0; i < input.length; i++) {
+  for (let j = 0; j < vowels.length; j++) {
+    if (input[i] === vowels[j])
+    {
+      resultsArray.push(input[i]);
+    }
+  }
+};
+ console.log(resultsArray.join('').toUpperCase());
+ 
+ /* the 'let input' and 'const vowels' can be changed for anything. Input could be an entire book, and Vowels could be one word, 
+ or phrase, and the loop will find them all and print them out */
+
+
+
 
